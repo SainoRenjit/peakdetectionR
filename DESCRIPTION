@@ -1,0 +1,19 @@
+Package: peakdetection
+Type: Package
+Title: Find Peak and Bottom Points of a Time Series Signal
+Version: 0.1.2
+Author: Saino Renjit
+Maintainer: Saino Renjit<sainorenjit20@gmail.com>
+Description: Determine where a peak or bottom is located &
+  returns a matrix where each row represents one peak found.
+Depends: R (>= 3.2.3)
+License: GPL-2
+Encoding: UTF-8
+LazyData: TRUE
+RoxygenNote: 6.0.1
+Imports:
+    wmtsa
+Suggests:
+    knitr,
+    rmarkdown
+    
